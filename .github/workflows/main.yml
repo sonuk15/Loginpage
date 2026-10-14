@@ -1,0 +1,8 @@
+name: Hello github
+on: [push]
+jobs:
+  display-hi:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Display hi
+      run: echo "hi"
